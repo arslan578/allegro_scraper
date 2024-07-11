@@ -36,7 +36,7 @@ To further avoid detection and potential IP bans, the scraper uses a proxy middl
     ```bash
     pip install -r requirements.txt
     ```
-3. **Run The Project **:
+4. **Run The Project**:
     ```bash
     scrapy crawl allegro
     ```
