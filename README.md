@@ -36,7 +36,10 @@ To further avoid detection and potential IP bans, the scraper uses a proxy middl
     ```bash
     pip install -r requirements.txt
     ```
-
+3. **Run The Project **:
+    ```bash
+    scrapy crawl allegro
+    ```
 ## Project Structure
 
 allegro_scraper/
@@ -99,5 +102,7 @@ class AllegroScraperPipeline:
     def process_item(self, item, spider):
         self.df = self.df.append(item, ignore_index=True)
         return item
+
+
 
 
