@@ -22,7 +22,7 @@ To further avoid detection and potential IP bans, the scraper uses a proxy middl
 
 1. **Clone the repository**:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/arslan578/allegro_scraper.git
     cd allegro_scraper
     ```
 
